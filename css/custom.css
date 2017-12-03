@@ -221,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image:linear-gradient(rgb(255, 179, 128),rgba(255, 179, 128, 0.507)), url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -524,4 +524,16 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
+}
+#about{
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
 }

@@ -267,7 +267,7 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 50px;
     line-height: 75px;
     margin-bottom: 50px;
   }
@@ -526,7 +526,7 @@ ul.social-buttons li a:active {
   outline: none;
 }
 #about{
-  background: url(../img/header-bg.jpg);
+  background: url(../img/about-bg3.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
